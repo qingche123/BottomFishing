@@ -1,0 +1,11 @@
+machine:
+  go:
+      version: 1.8
+
+dependencies:
+  pre:
+    - go get golang.org/x/net/websocket
+
+test:
+  override:
+    - ./BottomFishing
