@@ -4,6 +4,9 @@ machine:
 
 dependencies:
   pre:
+    - pwd
+    - ls
+    - echo $GOPATH
     - go get golang.org/x/net/websocket
 
 test:
